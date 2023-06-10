@@ -13,6 +13,7 @@ Usage:
 
 Notes:
 1. The translation of a large text wrapped in tags produces a better result.
+
 TODO:
 1. Rewrite as text-generation-webui extension
 2. Improving translation speed(there would be some method to reduce waiting time like stream technique)

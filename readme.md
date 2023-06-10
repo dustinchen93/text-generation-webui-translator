@@ -4,7 +4,7 @@ Preparation:
 1. Execute the command `pip install -r requirements.txt` to install the required dependencies.
 
 Usage:
-1. Obtain a multilngual model such as ChatGPT (e.g., OpenBuddy Vigogne (French), Chinese LLaMA / Alpaca, ).
+1. Obtain a multilngual model (e.g., OpenBuddy Vigogne (French), Chinese LLaMA / Alpaca, ).
 2. Run the text-generation-webui with the `--extension api` argument.
 3. Modify the "request" function in send_payload.py according to your requirements.(Make sure to change 'custom_stopping_strings' and 'prompt' to match your model's specifications.)
 4. Run the program and wait. For example, I translated the book "https://www.gutenberg.org/ebooks/55805" in Chinese, and it took me approximately 5 hours using two decent CPUs and OpenBuddy GGML.
